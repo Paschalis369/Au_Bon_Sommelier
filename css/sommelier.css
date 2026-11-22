@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@400;500;600&display=swap');
+
+/* Présentation générale */
+.text {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #E8DCD2;
+    text-align: center;
+    padding: 15px 50px;
+}
+
+/* Titre principal */
+.text h1 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: #722f37;
+    margin: 0 0 75px;
+    letter-spacing: 2px;
+}
+
+/* Sous-titres */
+.text h2 {
+    font-size: 27px;
+    color: #482324;
+    margin: 35px 0 20px;
+    font-weight: bold;
+}
+
+.text h3 {
+    font-size: 23px;
+    color: #8b5e3c;
+    margin: 30px 0 20px;
+    font-weight: bold;
+}
+
+/* Paragraphes */
+.text p {
+    font-size: 19px;
+    margin: 15px 0;
+}
+
+/* Historique et résultats */
+.text br {
+    line-height: 2;
+}
+
+/* Liste des boutons */
+.text ul {
+    list-style: none;
+    padding: 0;
+    margin: 40px auto 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Boutons */
+.text button {
+    background-color: #482324;
+    color: #E8DCD2;
+    border: 2px solid #482324;
+    border-radius: 8px;
+    padding: 12px 25px;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.text button:hover {
+    background-color: #E8DCD2;
+    color: #8b5e3c;
+    transform: translateY(-3px);
+}
+
+/* Formulaires */
+.text form {
+    margin: 0;
+}
+
+/* Adaptation aux petits écrans */
+@media screen and (max-width: 600px) {
+    .text {
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .text h1 {
+        font-size: 30px;
+    }
+
+    .text h2 {
+        font-size: 23px;
+    }
+
+    .text h3 {
+        font-size: 20px;
+    }
+
+    .text ul {
+        flex-direction: column;
+    }
+
+    .text button {
+        width: 100%;
+    }
+}
